@@ -13,6 +13,9 @@ public struct WCEthereumTransaction: Codable {
     public let gasPrice: String?
     public let gas: String?
     public let gasLimit: String? // legacy gas limit
+    public let maxPriorityFeePerGas: String?
+    public let maxFeePerGas: String?
+    public let type: String?
     public let value: String?
     public let data: String
 }
